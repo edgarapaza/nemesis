@@ -1,0 +1,25 @@
+body {
+  background-color: #679A68;
+  font-size: 18px;
+  font-family: Arial; }
+
+header {
+  color: #679A68; }
+
+section {
+  border: 1px solid red;
+  width: 60%; }
+  section h2 {
+    color: #F720E1;
+    padding: 10px 10px; }
+  section p {
+    font-size: 1.3em;
+    text-align: center; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=estilo.css.map */
