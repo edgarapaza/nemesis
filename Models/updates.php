@@ -21,9 +21,10 @@ class Updates{
 		$query1=$this->con->query($verificaPago);
 		$res=$query1->fetch_array();
 		if($res[0]==1){
-			echo "SE REALIZO EL PAGO";
+			$status="UPDATE solicitudestesting SET intermedioStatus=1";
+			$exe=$this->con->query($status);
 		}
-		else {echo "NO SE REALIZO EL PAGO";}
+		else { echo "NO SE REALIZO EL PAGO";}
 		
 	}
 
