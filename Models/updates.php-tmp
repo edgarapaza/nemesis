@@ -16,19 +16,37 @@ class Updates {
 		$query    = $this->con->query($consulta);
 	}
 
-	public function intermedioStatus($id) {
+	public function intermedioEstado($id) {
 		$verificaPago = "SELECT pagoSolicitud FROM solicitudestesting WHERE id='$id'";
 		$query1       = $this->con->query($verificaPago);
 		$res          = $query1->fetch_array();
 		if ($res[0] == 1) {
-			$status = "UPDATE solicitudestesting SET intermedioStatus=1";
+			$status = "UPDATE solicitudestesting SET intermedioStatus=1 WHERE id='$id'";
 			$exe    = $this->con->query($status);
 		} else {echo "NO SE REALIZO EL PAGO";}
 
 	}
 
-}
+	public function historicoEstado($id) {
+		$verificaPago = "SELECT pagoSolicitud FROM solicitudestesting WHERE id='$id'";
+		$query1       = $this->con->query($verificaPago);
+		$res          = $query1->fetch_array();
+		if ($res[0] == 1) {
+			$status = "UPDATE solicitudestesting SET historicoStatus=1 WHERE id='$id'";
+			$exe    = $this->con->query($status);
+		} else {
+			echo "NO SE REALIZO EL PAGO";
+		}
+	}
 
-$q = new Updates();
-$q->intermedioStatus(1);
-?>
+	public function solicitudEncontrada($id) {
+
+	}
+
+	public function pagoFolios($id) {
+
+	}
+
+	$q = new Updates();
+	$q->intermedioEstado(2);
+	?>
