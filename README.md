@@ -10,3 +10,4 @@ COLABORADORES
  - Dillman Gerson Quispe Luna
  - Jorge Andres Vargas Gonzales
  - Edgar Apaza Choque
+ - Gonzalo Flores Bermejo
