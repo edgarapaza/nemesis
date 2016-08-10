@@ -1,4 +1,4 @@
-
+# Para ingresar en una tabla de prueba
 CREATE TABLE encontrados (
   id_encontrados int NOT NULL auto_increment,
   num_solicitud int NOT NULL,
