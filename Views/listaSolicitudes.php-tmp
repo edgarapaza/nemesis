@@ -15,7 +15,7 @@
 	<table>
 		<tr>
 			<td>HOLA</td>
-			<input type="checkbox" name="my-checkbox" checked>
+			<input type="checkbox" name="my-checkbox">
 		</tr>
 	</table>
 </body>
