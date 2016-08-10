@@ -18,6 +18,12 @@
 			$data = $this->mysqli->query($sql);
 			return $data;
 		}
+
+		public function AddEncontrados($num_solicitud,$num_registro,$num_expediente,$num_caja,$num_tomo,$num_libro,$num_legajo,$num_protocolo,$num_escritura,$ini_folio,$fin_folio,$nom_buscador,$observaciones)
+		{
+			$sql = "INSERT INTO encontrados (id_encontrados,num_solicitud,num_registro,num_expediente,num_caja,num_tomo,num_libro,num_legajo,num_protocolo,num_escritura,ini_folio,fin_folio,nom_buscador,observaciones) VALUES (NULL,'$num_solicitud','$num_registro','$num_expediente','$num_caja','$num_tomo','$num_libro','$num_legajo','$num_protocolo','$num_escritura','$ini_folio','$fin_folio','$nom_buscador','$observaciones')";
+			$this->mysqli->query($sql);
+		}
 	}
 
 	$fecha = '2016-02-11';

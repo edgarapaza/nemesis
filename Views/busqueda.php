@@ -13,77 +13,481 @@
 	<section>
 		<table border="1">
 			<tr>
-				<th>Nro solicitud</th>
+				<th>Solicitud</th>
+				<th>Registro</th>
+				<th>Expediente</th>
+				<th>Caja</th>
+				<th>Tomo</th>
+				<th>Libro</th>
+				<th>Legajo</th>
+				<th>Protocolo</th>
 				<th>Escritura</th>
-				<th>Folio</th>
-				<th>Al folio</th>
+				<th>Folio Inicio</th>
+				<th>Folio Final</th>
 				<th>Buscado por</th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th>Obs</th>
 			</tr>
 			<tr>
-				<td>156</td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
 			</tr>
 			<tr>
-				<td>157</td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
 			</tr>
-			<tr>
-				<td>158</td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
 			</tr>
-			<tr>
-				<td>159</td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
 			</tr>
-			<tr>
-				<td>160</td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td><input type="text" name=""></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
 			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="" size="2" value="158"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><input type="text" name="" size="2"></td>
+				<td><a href="#">Guardar</a></td>
+			</tr>
+
+
+
+
 		</table>
 	</section>
 </body>
