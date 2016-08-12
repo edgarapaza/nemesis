@@ -1,18 +1,20 @@
 
 <?php include "header.php";
-header("Refresh: 30; URL='newsolicitud.php'");
+#header("Refresh: 30; URL='newsolicitud.php'");
 require_once "../Controllers/EncontradosController.php";
 
 $fecha = '2016-02-11';
-$data = SolicitudesDia($fecha);
-echo $fecha."<br>";
+
+$encontrado = new Encontrados();
+$data = $encontrado->SolicitudesDia($fecha);
+
 ?>
 <script type="text/javascript">
 	function agregar(id){
 
 		var doc = document.getElementById(id).value;
 
-		document.getElementById("numEscrituraModal").value = doc;
+		document.getElementById("num_solicitud").value = doc;
 	}
 </script>
 <div class="container">
@@ -23,6 +25,7 @@ echo $fecha."<br>";
 		<div class="col-md-10">
 			<h2>Listado de solicitudes</h2>
 			<form>
+				<input type="text" name="fecha" value="<?php echo $fecha; ?>">
 				<table class="table">
 					<tr>
 						<td>Num Solicitud</td>
@@ -40,7 +43,8 @@ echo $fecha."<br>";
 					 ?>
 					<tr>
 						<td>
-							<input type="text" name="numsolicitud" id="numsol<?php echo $i;?>" value="<?php echo $fila['codSol']; ?>">
+							<?php echo $fila['codSol']; ?>
+							<input type="hidden" name="numsolicitud" id="numsol<?php echo $i;?>" value="<?php echo $fila['codSol']; ?>">
 						</td>
 						<td>
 							<?php echo $fila['codUsu'];?>
@@ -69,53 +73,66 @@ echo $fecha."<br>";
 			        <h4 class="modal-title" id="exampleModalLabel">Datos Encontrados</h4>
 			      </div>
 			      <div class="modal-body">
-			        <form>
+			        <form action="../Controllers/EncontradosController.php">
 			           <div class="form-group">
 			            <label for="recipient-name" class="control-label">Num Solicitud:</label>
-			            <input type="text" id="numEscrituraModal" >
+			            <input type="text" name="num_solicitud" id="num_solicitud" >
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Num Escritura:</label>
-			            <input type="text" id="escritura" >
+			            <input type="text" name="num_escritura" id="escritura" >
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Protocolo:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_protocolo" id="recipient-name">
 			          </div>
 
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Folio Inicial:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="ini_folio" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Folio Final:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="fin_folio" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Registro:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_registro" id="recipient-name">
+			          </div>
+			          <div class="form-group">
+			            <label for="recipient-name" class="control-label">Expediente:</label>
+			            <input type="text" name="num_expediente" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Caja:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_caja" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Tomo:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_tomo" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Libro:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_libro" id="recipient-name">
 			          </div>
 			          <div class="form-group">
 			            <label for="recipient-name" class="control-label">Legajo:</label>
-			            <input type="text" id="recipient-name">
+			            <input type="text" name="num_legajo" id="recipient-name">
 			          </div>
+			          <div class="form-group">
+			            <label for="recipient-name" class="control-label">Buscador:</label>
+			            <input type="text" name="nom_buscador" id="recipient-name">
+			          </div>
+			          <div class="form-group">
+			            <label for="recipient-name" class="control-label">Observaciones:</label>
+			            <input type="text" name="observaciones" id="recipient-name">
+			          </div>
+
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="submit" class="btn btn-primary" name="btnGuardar" >Guardar</button>
+				      </div>
 			        </form>
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary">Guardar</button>
 			      </div>
 			    </div>
 			  </div>
@@ -125,7 +142,7 @@ echo $fecha."<br>";
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
 			        <h4 class="modal-title" id="exampleModalLabel">Datos Encontrados</h4>
 			      </div>
 			      <div class="modal-body">

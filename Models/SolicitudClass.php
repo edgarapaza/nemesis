@@ -24,6 +24,13 @@
 			$sql = "INSERT INTO encontrados (id_encontrados,num_solicitud,num_registro,num_expediente,num_caja,num_tomo,num_libro,num_legajo,num_protocolo,num_escritura,ini_folio,fin_folio,nom_buscador,observaciones) VALUES (NULL,'$num_solicitud','$num_registro','$num_expediente','$num_caja','$num_tomo','$num_libro','$num_legajo','$num_protocolo','$num_escritura','$ini_folio','$fin_folio','$nom_buscador','$observaciones')";
 			$this->mysqli->query($sql);
 		}
+
+		public function Duplicados($numSolicitud){
+			$sql = "SELECT COUNT(id_encontrados) AS total FROM encontrados WHERE num_solicitud = $numSolicitud";
+			$data = $this->mysqli->query($sql);
+			$numfilas = $data->num_rows;
+			return $numfilas;
+		}
 	}
 
 ?>
