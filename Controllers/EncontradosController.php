@@ -1,6 +1,15 @@
 <?php
-	require_once "../Models/SolicitudClass.php";
-	$solicitud = new Solicitud();
+
+	function SolicitudesDia($fecha){
+
+		require_once "../Models/SolicitudClass.php";
+
+		$solicitud = new Solicitud();
+		$datos = $solicitud->Listado1($fecha);
+
+		return $datos;
+	}
+
 
 	$num_solicitud = $_REQUEST['num_solicitud'];
 	$num_registro = $_REQUEST['num_registro'];
@@ -30,5 +39,5 @@
 	echo $nom_buscador;
 	echo $observaciones;
 
-	$solicitud->AddEncontrados($num_solicitud,$num_registro,$num_expediente,$num_caja,$num_tomo,$num_libro,$num_legajo,$num_protocolo,$num_escritura,$ini_folio,$fin_folio,$nom_buscador,$observaciones)
+	//$solicitud->AddEncontrados($num_solicitud,$num_registro,$num_expediente,$num_caja,$num_tomo,$num_libro,$num_legajo,$num_protocolo,$num_escritura,$ini_folio,$fin_folio,$nom_buscador,$observaciones)
  ?>

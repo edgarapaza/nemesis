@@ -26,17 +26,4 @@
 		}
 	}
 
-	$fecha = '2016-02-11';
-	echo $fecha."<br>";
-	$solicitud = new Solicitud();
-	$datos = $solicitud->Listado1($fecha);
-
-	while ($fila = $datos->fetch_assoc())
-	{
-		echo $fila['codSol']." ";
-		echo $fila['codUsu']." ";
-		echo $fila['codTipSol']." ";
-		echo $fila['idSol']." ";
-		echo "<br>";
-	}
 ?>
